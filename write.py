@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # Read userlist into pandas (0-based) dataframe, column = id (64-bit unsigned integer)
-result = pd.read_csv("resultlisttest.txt",sep=None)
+result = pd.read_csv("resultlist.txt",sep=None)
 
 idlist = pd.read_csv("userlist.txt",sep='\n', dtype=int)
 
