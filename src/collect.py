@@ -7,7 +7,7 @@ from tweepy import Stream
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 
-# Twitter API credentials
+# Twitter API credentials, check ceredentials file for credential if empty prompt user
 consumer_key = ''
 consumer_secret = ''
 access_key = ''
